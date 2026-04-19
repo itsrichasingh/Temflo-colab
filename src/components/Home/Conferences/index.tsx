@@ -5,7 +5,7 @@ import ThumbnailCarousel from "../ThumbnailCarousel";
 const Conferences = () => {
   return (
     <>
-      <section className="bg-IcyBreeze dark:bg-darklight relative overflow-hidden before:absolute before:content-[''] before:bg-PaleSkyBlu before:dark:bg-secondary before:w-687 before:h-687 before:-bottom-1/2 before:rounded-full before:xl:inline-block before:hidden">
+      <section className="bg-IcyBreeze dark:bg-darklight relative overflow-hidden before:absolute before:content-[''] before:bg-SereneSky before:dark:bg-secondary before:w-687 before:h-687 before:-bottom-1/2 before:rounded-full before:xl:inline-block before:hidden">
         <div className="container">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center lg:gap-24 gap-5">
             <div
@@ -21,17 +21,17 @@ const Conferences = () => {
               data-aos-delay="200"
               data-aos-duration="1000"
             >
-              <h2>Best Online and Offline Conferences</h2>
+              <h2 className="font-bold text-2xl">
+                Digital & Monitoring Solutions
+              </h2>
               <p className="text-lg font-normal text-SlateBlueText dark:text-opacity-80 max-w-506 md:pt-9 pt-5 md:pb-14 pb-6">
-                Sometimes by accident, sometimes chunks as necessary making this
-                the first true generator on the Internet. recently with desktop
-                publishing software like Aldus PageMaker
+                Temflo provides future proof display system. Offering a variety of products like immersive display, Outdoor LED display and DLP based video walls
               </p>
               <Link
                 href="/"
                 className="btn_outline btn-2 hover-outline-slide-down"
               >
-                <span>Upcoming conferences</span>
+                <span>More Projects</span>
               </Link>
             </div>
           </div>
